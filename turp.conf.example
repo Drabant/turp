@@ -1,0 +1,2 @@
+# Redirect all packages on port 1053 to hostname example.com port 53
+listen ip4 127.0.0.1 port 1053 proto tcp/udp redirect ip4 example.com port 53
